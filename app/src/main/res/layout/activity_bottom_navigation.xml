@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BottomNavigationActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/colorCalendar"
+            android:isScrollContainer="false"
+            android:soundEffectsEnabled="true"
+            app:itemHorizontalTranslationEnabled="false"
+            app:itemIconTint="@drawable/bottom_nav_item_colors"
+            app:itemTextColor="@color/bottom_nav_item_text"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_navigation_menu"
+            app:theme="@style/Theme.MaterialComponents.Light">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <View
+            android:id="@+id/view_dividerNav"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorText_black" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackgroundActivity" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_addEvent"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_done_black_24dp"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#666666"
+        app:borderWidth="0.5dp"
+        app:fabCustomSize="60dp"
+        app:fabSize="auto"
+        app:maxImageSize="40dp"
+        app:rippleColor="@color/fabRippleColor" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

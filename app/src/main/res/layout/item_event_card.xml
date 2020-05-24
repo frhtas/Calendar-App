@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_event_card"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginBottom="0dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:longClickable="true"
+    android:padding="1dp"
+    android:background="@drawable/background_transparent"
+    app:cardBackgroundColor="@color/colorBackgroundItem"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="5dp" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEvent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ripple_effect"
+        android:gravity="center|start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_eventName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingStart="22dp"
+            android:paddingEnd="22dp"
+            android:textColor="@color/colorText_black"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_icon_time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center|start">
+
+            <ImageView
+                android:id="@+id/imageView_event"
+                android:layout_width="31dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="2dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_menu_event_black" />
+
+            <TextView
+                android:id="@+id/textView_timeFrom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:gravity="center|start"
+                android:paddingBottom="8dp"
+                android:textColor="@color/colorText_gray"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

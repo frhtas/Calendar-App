@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textAlignment="center"
+            android:textColor="@color/colorText_black"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_dividerSettings"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorText_black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout_defSound"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_defSoundText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1.1"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:text="@string/default_sound"
+                android:textColor="@color/colorText_black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_defSound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.7"
+                android:background="@drawable/background_transparent"
+                android:clickable="false"
+                android:spinnerMode="dialog" />
+
+            <ImageView
+                android:id="@+id/imageView_goSound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="2.1"
+                android:tint="@color/colorText_gray"
+                app:srcCompat="@drawable/ic_sound_black_24dp"
+                android:contentDescription="@string/todo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_vibration"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch_vibration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="27dp"
+                android:paddingEnd="27dp"
+                android:switchMinWidth="80dp"
+                android:text="@string/vibration"
+                android:textColor="@color/colorText_black"
+                android:textOn="@string/dark_mode"
+                android:textSize="18sp"
+                android:thumbTint="@color/colorAccent" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_divider1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/colorText_gray" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_defRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_repeatText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1.1"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:text="@string/default_repeat_time"
+                android:textColor="@color/colorText_black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_defRepeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.7"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorText_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView_goRepeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="2.1"
+                android:tint="@color/colorText_gray"
+                app:srcCompat="@drawable/ic_repeat_black_24dp"
+                android:contentDescription="@string/todo" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/colorText_gray" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_defReminder"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_reminderText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1.1"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:text="@string/default_reminder_time"
+                android:textColor="@color/colorText_black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_defReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.7"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorText_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView_goReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="2.1"
+                android:tint="@color/colorText_gray"
+                app:srcCompat="@drawable/ic_access_alarm_black_24dp"
+                android:contentDescription="@string/todo" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_divider2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/colorText_gray" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_mode"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch_mode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="27dp"
+                android:paddingEnd="27dp"
+                android:switchMinWidth="80dp"
+                android:text="@string/dark_mode"
+                android:textColor="@color/colorText_black"
+                android:textOn="@string/dark_mode"
+                android:textSize="18sp"
+                android:thumbTint="@color/colorAccent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

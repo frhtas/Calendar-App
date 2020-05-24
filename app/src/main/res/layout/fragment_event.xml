@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorBackgroundActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText_eventName"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="@string/task"
+            android:inputType="textCapSentences|textEmailSubject"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/colorText_black"
+            android:textSize="18sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editText_attendees"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="15dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="@string/attendees"
+            android:inputType="text|textCapSentences|textPostalAddress"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/colorText_black"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/editText_description"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="@string/description"
+            android:inputType="textMultiLine|textNoSuggestions|textCapSentences"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/colorText_black"
+            android:textSize="18sp"
+            android:autofillHints="" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_timeFrom"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_timeFromText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="0.72"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:text="@string/from"
+                android:textColor="@color/colorText_black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_timeFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.45"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorText_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView_go"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="0.9"
+                android:contentDescription="@string/todo"
+                android:tint="@color/colorText_gray"
+                app:srcCompat="@drawable/ic_access_time_black_24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_timeTo"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_timeToText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="0.85"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:text="@string/to"
+                android:textColor="@color/colorText_black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_timeTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.44"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorText_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView_goTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:tint="@color/colorText_gray"
+                app:srcCompat="@drawable/ic_access_time_black_24dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_repeatText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="0.85"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:text="@string/repeat"
+                android:textColor="@color/colorText_black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_repeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.44"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorText_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView_goRepeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:tint="@color/colorText_gray"
+                app:srcCompat="@drawable/ic_repeat_black_24dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText_repeatCount"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="15dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:autofillHints=""
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/colorText_black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/colorText_gray" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout_reminder"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/ripple_effect"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_reminderText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_weight="0.75"
+                android:paddingStart="15dp"
+                android:paddingEnd="12dp"
+                android:text="@string/reminder"
+                android:textColor="@color/colorText_black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.55"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorText_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView_goReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:tint="@color/colorText_gray"
+                app:srcCompat="@drawable/ic_access_alarm_black_24dp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_divider2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/colorText_gray" />
+
+        <EditText
+            android:id="@+id/editText_location"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="15dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="@string/location"
+            android:inputType="text|textCapSentences|textPostalAddress"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@color/colorText_black"
+            android:textSize="18sp"
+            android:autofillHints="" />
+
+    </LinearLayout>
+</ScrollView>

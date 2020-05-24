@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="material_calendar_months_array">
+        <item>Ocak</item>
+        <item>Şubat</item>
+        <item>Mart</item>
+        <item>Nisan</item>
+        <item>Mayıs</item>
+        <item>Haziran</item>
+        <item>Temmuz</item>
+        <item>Ağustos</item>
+        <item>Eylül</item>
+        <item>Ekim</item>
+        <item>Kasım</item>
+        <item>Aralık</item>
+    </array>
+
+    <string name="material_calendar_monday">PZT</string>
+    <string name="material_calendar_tuesday">SAL</string>
+    <string name="material_calendar_wednesday">ÇAR</string>
+    <string name="material_calendar_thursday">PER</string>
+    <string name="material_calendar_friday">CUM</string>
+    <string name="material_calendar_saturday">CMT</string>
+    <string name="material_calendar_sunday">PAZ</string>
+    <string name="material_calendar_today_button">Bugün</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">İptal</string>
+
+    <string name="app_name">Takvim</string>
+    <string name="task_added_successfully">Görev Başarıyla Eklendi</string>
+    <string name="meeting_added_successfully">Toplantı Başarıyla Eklendi</string>
+    <string name="birthday_added_successfully">Doğum Günü Başarıyla Eklendi</string>
+    <string name="task_deleted_successfully">Görev Başarıyla Silindi</string>
+    <string name="meeting_deleted_successfully">Toplantı Başarıyla Silindi</string>
+    <string name="birthday_deleted_successfully">Doğum Günü Başarıyla Silindi</string>
+    <string name="task_updated_successfully">Görev Başarıyla Güncellendi</string>
+    <string name="meeting_updated_successfully">Toplantı Başarıyla  Güncellendi</string>
+    <string name="birthday_updated_successfully">Doğum Günü Başarıyla Güncellendi</string>
+    <string name="sbirthday">\'in Doğum Günü</string>
+    <string name="birthday">Doğum Günü</string>
+    <string name="birthday_date">Doğum Tarihi</string>
+    <string name="from">Başlangıç</string>
+    <string name="to">Bitiş</string>
+    <string name="reminders">Hatırlatmalar</string>
+    <string name="dark_mode">Karanlık Mod</string>
+    <string name="attendees">Katılımcılar</string>
+    <string name="settings">Ayarlar</string>
+    <string name="default_sound">Varsayılan Zil Sesi</string>
+    <string name="default_repeat_time">Varsayılan Tekrar Zamanı</string>
+    <string name="default_reminder_time">Varsayılan Hatırlatma Zamanı</string>
+    <string name="todo">TODO</string>
+    <string name="edit">Düzenle</string>
+    <string name="delete">Sil</string>
+    <string name="name">İsim</string>
+    <string name="when">Tarih</string>
+    <string name="task">Görev</string>
+    <string name="description">Açıklama</string>
+    <string name="repeat">Tekrar</string>
+    <string name="reminder">Hatırlatma</string>
+    <string name="location">Konum</string>
+    <string name="dark_mode_on">Karanlık Mod AÇIK</string>
+    <string name="dark_mode_off">Karanlık Mod KAPALI</string>
+    <string name="meeting">Toplantı</string>
+    <string name="default_reminder_selected_successfully">Varsayılan Tekrar Zamanı Güncellendi</string>
+    <string name="default_repeat_selected_successfully">Varsayılan Hatırlatma Zamanı Güncellendi</string>
+    <string name="go_to_date">Tarihe Git</string>
+    <string name="choose_date">Tarih</string>
+    <string name="show_birthday">Doğum Gününü Göster</string>
+    <string name="show_task">Görevi Göster</string>
+    <string name="show_meeting">Toplantıyı Göster</string>
+    <string name="delete_this_event">Etkinlik silinecek.\nEmin misiniz?</string>
+    <string name="share">Paylaş</string>
+    <string name="tomorrow">Yarın</string>
+    <string name="today">Bugün</string>
+    <string name="event">Etkinlik</string>
+    <string name="no_events">Etkinlik Yok</string>
+    <string name="default_sound_updated">Varsayılan Zil Sesi Güncellendi</string>
+    <string name="weekly_view">Haftalık</string>
+    <string name="daily_view">Günlük</string>
+    <string name="monthly_view">Aylık</string>
+    <string name="all_day">Tüm gün</string>
+    <string name="vibration">Titreşim</string>
+    <string name="vibration_on">Titreşim AÇIK</string>
+    <string name="vibration_off">Titreşim KAPALI</string>
+
+    <string-array name="reminder_items">
+        <item>Etkinlik zamanı</item>
+        <item>30 dakika önce</item>
+        <item>1 saat önce</item>
+        <item>4 saat önce</item>
+        <item>1 gün önce</item>
+    </string-array>
+
+    <string-array name="repeat_items">
+        <item>Tek seferlik etkinlik</item>
+        <item>Günlük</item>
+        <item>Haftalık</item>
+        <item>Aylık</item>
+        <item>Yıllık</item>
+    </string-array>
+
+    <string-array name="repeat_count_hints">
+        <item>Tekrar yok!</item>
+        <item>Kaç gün tekrarlansın?</item>
+        <item>Kaç hafta tekrarlansın?</item>
+        <item>Kaç ay tekrarlansın?</item>
+        <item>Kaç yıl tekrarlansın?</item>
+    </string-array>
+</resources>

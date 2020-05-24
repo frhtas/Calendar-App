@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02727C</color>
+    <color name="colorPrimaryDark">#02727C</color>
+    <color name="colorAccent">#02727C</color>
+
+    <color name="colorHeader">#02727C</color>
+    <color name="colorCalendar">#19FFFFFF</color>
+    <color name="colorText_black">#000000</color>
+    <color name="colorText_gray">#777777</color>
+    <color name="colorBackgroundActivity">#77EEEEEE</color>
+    <color name="colorBackgroundItem">#FFFFFF</color>
+    <color name="colorBackgroundDialog">#FFFFFF</color>
+    <color name="fabRippleColor">#AED0D3</color>
+    <color name="colorBackgroundEdittext">#BBDDDDDD</color>
+    <color name="colorBackgroundButton">#77EEEEEE</color>
+    <color name="colorBackgroundToday">#B0CDCF</color>
+    <color name="colorBackgroundDay">#BBDDDDDD</color>
+
+</resources>

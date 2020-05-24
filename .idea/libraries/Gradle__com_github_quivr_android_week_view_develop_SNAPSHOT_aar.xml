@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.quivr:android-week-view:develop-SNAPSHOT@aar">
+    <CLASSES>
+      <root url="jar://C:/softwares/gradle-5.4.1/caches/transforms-2/files-2.1/3f7380d00e9449e2ad0892226cfe7da5/jetified-android-week-view-develop-SNAPSHOT/jars/classes.jar!/" />
+      <root url="file://C:/softwares/gradle-5.4.1/caches/transforms-2/files-2.1/3f7380d00e9449e2ad0892226cfe7da5/jetified-android-week-view-develop-SNAPSHOT/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/softwares/gradle-5.4.1/caches/modules-2/files-2.1/com.github.quivr/android-week-view/develop-SNAPSHOT/c97c89d53c4f9c69c516db2cfdf96b6c96e4a3e6/android-week-view-develop-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

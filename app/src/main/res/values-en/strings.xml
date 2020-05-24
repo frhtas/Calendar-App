@@ -1,0 +1,109 @@
+<resources>
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+    <string name="material_calendar_monday">MON</string>
+    <string name="material_calendar_tuesday">TUE</string>
+    <string name="material_calendar_wednesday">WED</string>
+    <string name="material_calendar_thursday">THU</string>
+    <string name="material_calendar_friday">FRI</string>
+    <string name="material_calendar_saturday">SAT</string>
+    <string name="material_calendar_sunday">SUN</string>
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+
+    <string name="app_name">Calendar</string>
+    <string name="task_added_successfully">Task Added Successfully</string>
+    <string name="meeting_added_successfully">Meeting Added Successfully</string>
+    <string name="birthday_added_successfully">Birthday Added Successfully</string>
+    <string name="task_deleted_successfully">Task Deleted Successfully</string>
+    <string name="meeting_deleted_successfully">Meeting Deleted Successfully</string>
+    <string name="birthday_deleted_successfully">Birthday Deleted Successfully</string>
+    <string name="task_updated_successfully">Task Updated Successfully</string>
+    <string name="meeting_updated_successfully">Meeting Updated Successfully</string>
+    <string name="birthday_updated_successfully">Birthday Updated Successfully</string>
+
+    <string name="sbirthday">\'s birthday</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_date">Birthday Date</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="reminders">Reminders</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="attendees">Attendees</string>
+    <string name="settings">Settings</string>
+    <string name="default_sound">Default Sound</string>
+    <string name="default_repeat_time">Default Repeat Time</string>
+    <string name="default_reminder_time">Default Reminder Time</string>
+    <string name="todo">TODO</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="name">Name</string>
+    <string name="when">When</string>
+    <string name="task">Task</string>
+    <string name="description">Description</string>
+    <string name="repeat">Repeat</string>
+    <string name="reminder">Reminder</string>
+    <string name="location">Location</string>
+    <string name="dark_mode_on">Dark Mode ON</string>
+    <string name="dark_mode_off">Dark Mode OFF</string>
+    <string name="meeting">Meeting</string>
+    <string name="default_reminder_selected_successfully">Default Reminder Time Updated</string>
+    <string name="default_repeat_selected_successfully">Default Repeat Time Updated</string>
+    <string name="go_to_date">Go to date</string>
+    <string name="choose_date">Date</string>
+    <string name="show_birthday">Show Birthday</string>
+    <string name="show_task">Show Task</string>
+    <string name="show_meeting">Show Meeting</string>
+    <string name="delete_this_event">Event will be deleted.\nAre you sure?</string>
+    <string name="share">Share</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="today">Today</string>
+    <string name="event">Event</string>
+    <string name="no_events">No Events</string>
+    <string name="default_sound_updated">Default Sound Updated</string>
+    <string name="weekly_view">Weekly View</string>
+    <string name="daily_view">Daily View</string>
+    <string name="monthly_view">Monthly View</string>
+    <string name="all_day">All day</string>
+    <string name="vibration">Vibration</string>
+    <string name="vibration_on">Vibration ON</string>
+    <string name="vibration_off">Vibration OFF</string>
+
+    <string-array name="reminder_items">
+        <item>Time of the event</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+        <item>4 hours before</item>
+        <item>1 day before</item>
+    </string-array>
+
+    <string-array name="repeat_items">
+        <item>One-Time Event</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="repeat_count_hints">
+        <item>No repeat!</item>
+        <item>How many days repeat it?</item>
+        <item>How many weeks repeat it?</item>
+        <item>How many months repeat it?</item>
+        <item>How many years repeat it?</item>
+    </string-array>
+
+</resources>

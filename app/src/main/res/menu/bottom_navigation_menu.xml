@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_task"
+        android:icon="@drawable/ic_menu_event_black"
+        android:title="@string/task"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_meeting"
+        android:icon="@drawable/ic_meeting_black_24dp"
+        android:title="@string/meeting"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_birthday"
+        android:icon="@drawable/ic_menu_birthday_black"
+        android:title="@string/birthday"
+        app:showAsAction="ifRoom" />
+
+</menu>

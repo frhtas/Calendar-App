@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundActivity">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton_updateEvent"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_done_black_24dp"
+        android:tint="#FFFFFF"
+        app:backgroundTint="#666666"
+        app:borderWidth="0.5dp"
+        app:fabCustomSize="60dp"
+        app:fabSize="auto"
+        app:maxImageSize="40dp"
+        app:rippleColor="@color/fabRippleColor" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

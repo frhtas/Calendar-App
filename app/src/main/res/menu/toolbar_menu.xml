@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/toolbar_go_to_view"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/toolbar_go_to_monthly"
+                android:icon="@drawable/ic_toolbar_monthly"
+                android:title="@string/monthly_view"/>
+            <item
+                android:id="@+id/toolbar_go_to_weekly"
+                android:icon="@drawable/ic_toolbar_weekly"
+                android:title="@string/weekly_view"/>
+            <item
+                android:id="@+id/toolbar_go_to_daily"
+                android:icon="@drawable/ic_toolbar_daily"
+                android:title="@string/daily_view"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/toolbar_eventlist"
+        android:title=""
+        android:icon="@drawable/ic_toolbar_eventlist"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/toolbar_go_to_set"
+        android:icon="@drawable/ic_toolbar_overflow"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/toolbar_go_to_date"
+                android:icon="@drawable/ic_toolbar_gotodate"
+                android:title="@string/go_to_date"/>
+            <item
+                android:id="@+id/toolbar_settings"
+                android:icon="@drawable/ic_toolbar_settings"
+                android:title="@string/settings"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+
+</menu>
