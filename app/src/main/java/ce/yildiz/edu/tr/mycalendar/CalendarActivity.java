@@ -131,6 +131,7 @@ public class CalendarActivity extends AppCompatActivity {
 
                     calendarEventAdapter.updateEvents(calendarHelper.getEventsByDay(Calendar.getInstance())); // Update recycler view after clicking a day
                     setEventDays();
+                    setToolbarTitleAsMonth();
                 } catch (OutOfDateRangeException e) {
                     e.printStackTrace();
                 }

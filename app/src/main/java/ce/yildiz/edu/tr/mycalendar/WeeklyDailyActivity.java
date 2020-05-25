@@ -92,6 +92,7 @@ public class WeeklyDailyActivity extends AppCompatActivity {
                 mWeekView.goToToday();
                 mWeekView.goToHour(Calendar.getInstance().get(Calendar.HOUR_OF_DAY));
                 selectedDay.setTimeInMillis(Calendar.getInstance().getTimeInMillis());
+                setToolbarTitleAsMonth();
             }
         });
 
